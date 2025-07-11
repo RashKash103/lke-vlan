@@ -28,7 +28,7 @@ spec:
     spec:
       nodeName: ""
       containers:
-        - image: docker pull ghcr.io/rashkash103/lke-vlan:latest
+        - image: ghcr.io/rashkash103/lke-vlan:latest
           imagePullPolicy: IfNotPresent
           stdin: true
           tty: true
